@@ -61,12 +61,16 @@
   align-items: center;
 }
 
-.done {
+.checked {
   text-decoration: line-through;
   color: var(--text-color-muted);
 }
 
-.removeBtn {
+.checked-button {
+  text-decoration: none;
+}
+
+.remove-btn {
   background-color: var(--danger-color);
   color: white;
   border: none;
@@ -76,6 +80,6 @@
   cursor: pointer
 }
 
-.removeBtn:hover {
+.remove-btn:hover {
   background-color: #dc2626;
 }
